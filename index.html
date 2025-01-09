@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body>
+    <main class="w-full h-screen bg-gray-900 flex justify-center items-center">
+        <section class="w-[300px] mx-auto text-center bg-[#fffefe] py-[40px] rounded-lg">
+            <input type="text" id="inp"
+                class="w-[80%] h-16 text-right px-2 caret-gray-400 text-4xl rounded-lg outline-0 mb-4 border border-gray-400">
+            <button class="red">Ac</button>
+            <button class="red">C</button>
+            <button class="btn-check orange">%</button>
+            <button class="btn-check orange">/</button>
+            <button class="btn-num">7</button>
+            <button class="btn-num">8</button>
+            <button class="btn-num">9</button>
+            <button class="btn-check orange">*</button>
+            <button class="btn-num">4</button>
+            <button class="btn-num">5</button>
+            <button class="btn-num">6</button>
+            <button class="btn-check orange">-</button>
+            <button class="btn-num">1</button>
+            <button class="btn-num">2</button>
+            <button class="btn-num">3</button>
+            <button class="btn-check orange">+</button>
+            <button class="btn-num">00</button>
+            <button class="btn-num">0</button>
+            <button class="btn-num">.</button>
+            <button class="btn-check orange">=</button>
+        </section>
+        
+        <!-- info -->
+        <div class="hidden w-[170px] h-[170px] rounded-full border-[1px] border-infoColor outline-[1px] outline-infoColor 
+            outline-offset-8 fixed bottom-[50px] right-[40px] md:flex items-center justify-center select-none z-50 group">
+            <div class="circle w-[165px] h-[165px] rounded-full">
+                <img src="img/me5.webp" alt="" class="w-full h-full rounded-full object-cover">
+            </div>
+            <strong class="absolute top-[45%] right-[-88px] rotate-[90deg] text-[15px] italic text-infoColor">Frontend
+                Developer</strong>
+            <a href="https://www.linkedin.com/in/reza-geshani-web"><i
+                    class="bi bi-linkedin group-hover:visible text-[26px] text-white absolute invisible transition-all duration-150 py-[10px] px-[30px] hover:opacity-100 hover:text-[#1f9caa] top-[-10px] left-[-58px]"></i></a>
+            <a href="https://www.instagram.com/rezageshani_web"><i
+                    class="bi bi-instagram group-hover:visible text-[26px] absolute invisible transition-all duration-150 py-[10px] px-[30px] hover:opacity-100 hover:text-[#1f9caa] text-white top-[40px] left-[-80px]"></i></a>
+            <a href="https://github.com/RezaGeshaniWeb/"><i
+                    class="bi bi-github group-hover:visible text-[26px] absolute invisible transition-all duration-150 py-[10px] px-[30px] hover:opacity-100 hover:text-[#1f9caa] text-white top-[90px] left-[-80px]"></i></a>
+            <a href="mailto:rezageshaniweb@gmail.com"><i
+                    class="bi bi-envelope-at group-hover:visible text-[26px] absolute invisible transition-all duration-150 py-[10px] px-[30px] hover:opacity-100 hover:text-[#1f9caa] text-white top-[130px] left-[-58px]"></i></a>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

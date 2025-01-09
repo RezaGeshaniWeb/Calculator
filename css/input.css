@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-check,
+    .btn-num {
+        @apply w-[50px] h-[50px] text-[24px] m-[5px] rounded-[5px] border-none bg-[#bdbdbd] cursor-pointer active:scale-[0.95] hover:bg-[#ddd];
+    }
+
+    .red {
+        @apply bg-[#ff4a4a] hover:bg-[#e75353] w-[50px] h-[50px] text-[24px] m-[5px] rounded-[5px] border-none cursor-pointer active:scale-[0.95];
+    }
+
+    .orange {
+        @apply bg-[orange] hover:bg-[#e2b35a];
+    }
+}
